@@ -25,7 +25,7 @@ def select_clinical_parameters(df, cols):
     clin_df['DateOfVisit'] = pd.to_datetime(clin_df['DateOfVisit'])
     return clin_df
 
-def update_gds_data(GDS_df, clin_df)
+def update_gds_data(GDS_df, clin_df):
     visits = []
     for idx, row in GDS_df.iterrows():
         NEURO_PATIENT = row['PatientID']
@@ -41,3 +41,10 @@ def update_gds_data(GDS_df, clin_df)
             visits.append(list(clin_info2['Visit'])[0]) 
     GDS_df['Visit'] = visits
     return GDS_df[['PatientID', 'Visit', 'VisitDate', 'GDS']]
+
+merged_df = pd.merge(clinical_df, seq_abundance_df,
+                  left_on = ['Patient','Visit'],
+                  right_on = ['Patient','Visit'],
+                  how = 'inner')
+merged_df1.sort_values(['AAPos','Patient','Visit'],  inplace=True)
+print merged_df1.shape
