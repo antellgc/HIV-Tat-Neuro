@@ -1,9 +1,9 @@
 # HIV-Tat-Neuro
 Thesis Research. Sequence analysis of HIV-1 and statistical modeling of neurocognitive impairment.
 
-Chapter 4 
-Identification of Subtype B Tat variants that associate with HIV cognitive impairment
-Abstract
+### Chapter 4 
+### Identification of Subtype B Tat variants that associate with HIV cognitive impairment
+##### Abstract
 Despite the advent of antiretroviral therapy (ART) for the treatment of
 human immunodeficiency type 1 (HIV-1) infection, approximately 50% of
 therapeutically adherent patients continue to present with mild neurological
