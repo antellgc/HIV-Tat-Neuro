@@ -1,6 +1,6 @@
 # HIV-Tat-Neuro
 
-Ph.D. Thesis Research. Sequence analysis of HIV-1 and statistical modeling of neurocognitive impairment.
+Ph.D. Thesis Research. Sequence analysis of HIV-1 Tat and machine learning classification of neurocognitive impairment. Subset of the analyses included, pending publication.
 
 ### Chapter 4: Identification of Subtype B Tat variants that associate with HIV cognitive impairment
 
@@ -43,3 +43,15 @@ inference of genetic variants associated with NI.
 `clinical_preprocess.py`: Imports and formats RedCap clinical data.
 
 `aa_count_preprocess.py`: Processes amino acid count data and returns frequency or count data tables.
+
+### Notebooks
+
+`01. Amino Acid Count Preprocessing.ipynb`
+
+`02. NGS Quality Control.ipynb`
+
+`03. Clinical Preprocessing.ipynb`
+
+`04. Merge NGS and Clinical Data.ipynb`
+
+`05. Diversity Analysis.ipynb`
