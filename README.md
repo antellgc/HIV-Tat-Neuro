@@ -1,9 +1,8 @@
 # HIV-Tat-Neuro
 Ph.D. Thesis Research. Sequence analysis of HIV-1 and statistical modeling of neurocognitive impairment.
 
-### Chapter 4 
-### Identification of Subtype B Tat variants that associate with HIV cognitive impairment
-##### Abstract
+### Chapter 4: Identification of Subtype B Tat variants that associate with HIV cognitive impairment
+### Abstract
 Despite the advent of antiretroviral therapy (ART) for the treatment of
 human immunodeficiency type 1 (HIV-1) infection, approximately 50% of
 therapeutically adherent patients continue to present with mild neurological
@@ -31,3 +30,8 @@ incorporating only genetic or clinical features. This performance provides stron
 preliminary support that integration of NGS data of HIV-1 Tat and other genes
 may yield improvements to clinical screening tools, as well as allow the statistical
 inference of genetic variants associated with NI.
+
+### Code
+`quality_control.py`: Filters next-generation sequencing data based on read quality and coverage.
+`clinical_preprocess.py`: Imports and formats RedCap clinical data.
+`aa_count_preprocess.py`: Processes amino acid count data and returns frequency or count data tables.
