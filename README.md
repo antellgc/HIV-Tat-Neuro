@@ -1,5 +1,5 @@
 # HIV-Tat-Neuro
-Thesis Research. Sequence analysis of HIV-1 and statistical modeling of neurocognitive impairment.
+Ph.D. Thesis Research. Sequence analysis of HIV-1 and statistical modeling of neurocognitive impairment.
 
 ### Chapter 4 
 ### Identification of Subtype B Tat variants that associate with HIV cognitive impairment
