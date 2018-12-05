@@ -32,6 +32,9 @@ may yield improvements to clinical screening tools, as well as allow the statist
 inference of genetic variants associated with NI.
 
 ### Code
+
 `quality_control.py`: Filters next-generation sequencing data based on read quality and coverage.
+
 `clinical_preprocess.py`: Imports and formats RedCap clinical data.
+
 `aa_count_preprocess.py`: Processes amino acid count data and returns frequency or count data tables.
